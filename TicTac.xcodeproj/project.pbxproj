@@ -11,6 +11,7 @@
 		BE2FC5D628382CC000514283 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2FC5D528382CC000514283 /* ContentView.swift */; };
 		BE2FC5D828382CC100514283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2FC5D728382CC100514283 /* Assets.xcassets */; };
 		BE2FC5DB28382CC100514283 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2FC5DA28382CC100514283 /* Preview Assets.xcassets */; };
+		BE845BA52838717800E94931 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE845BA42838717800E94931 /* Alerts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BE2FC5D528382CC000514283 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE2FC5D728382CC100514283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE2FC5DA28382CC100514283 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE845BA42838717800E94931 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 		BE2FC5C728382CC000514283 = {
 			isa = PBXGroup;
 			children = (
+				BE845BA42838717800E94931 /* Alerts.swift */,
 				BE2FC5D228382CC000514283 /* TicTac */,
 				BE2FC5D128382CC000514283 /* Products */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE2FC5D628382CC000514283 /* ContentView.swift in Sources */,
+				BE845BA52838717800E94931 /* Alerts.swift in Sources */,
 				BE2FC5D428382CC000514283 /* TicTacApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
